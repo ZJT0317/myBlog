@@ -1,0 +1,65 @@
+a{
+	display:block;
+}
+.wrapper{
+	color:#CDCDCD;
+	height:7vh;
+	line-height:7vh;
+	text-align:center;
+	font-size:3.4vh;
+	border-bottom:0.4vh solid #E8EBED;
+}
+.wrapper span{
+	padding:0.7vh 0;
+}
+.wrapper span:first-child{
+	margin-right:15vw;
+}
+span.red{
+	color:#000;
+	border-bottom:0.4vh solid #f40;
+}
+.imgDiv{
+	float:right;
+	display:inline-block;
+	line-height:9vh;
+	height:7vh;
+}
+.wrapper img{
+	height:5vh;
+	width:5vh;
+}
+.praise{
+	height:8vh;
+	line-height:8vh;
+	font-size:2.9vh;
+	-webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+.praiseImg img{
+	width:4vh;
+	height:4vh;
+}
+.praiseImg{
+	margin:1vh 2vw 1vh 3vw;
+	width:6vh;
+	height:6vh;
+	text-align:center;
+	border-radius:50%;
+	background-color:#f40;
+}
+.praiseImg,
+.praiseWord{
+	float:left;
+}
+.praiseLt{
+	float:right;
+	margin-right:3vw;
+	color:#ccc;
+}
+div.green{
+	background-color:lightseagreen;
+}
+div.orange{
+	background-color:orange;
+}
+

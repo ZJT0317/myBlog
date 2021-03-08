@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+}
+.wrapper{
+	position:relative;
+	width:100%;
+	height:100%;
+	background-image:url(../../style/1006.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.content{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:90vw;
+	height:41vh;
+	background-color:#fff;
+	box-shadow: 0px 0px 20px #ccc;
+	z-index:1;
+	transform: translateX(-50%) translateY(-50%);
+}
+.reject,.load{
+	display:inline-block;
+	margin-top:1vh;
+	font-size:3.4vh;
+	line-height:4vh;
+	text-align:center;
+	height:4vh;
+	width:50%;
+}
+.reject{
+	color:skyblue;
+}
+.rejectLine,.loadLine{
+	display:inline-block;
+	background-color:#e8ebed;
+	width:50%;
+	height:0.35vh;
+}
+.rejectLine{
+	background-color:skyblue;
+}
+input{
+	margin:1vh 2vw;
+	width:75vw;
+	height:7vh;
+	font-size:3.4vh;
+	outline:none;
+}
+input::-webkit-input-placeholder {
+    color:#e8ebed;
+    font-size:3.4vh;
+}
+.one{
+	color:#e8ebed;
+	box-sizing:border-box;
+	padding-left:8vh;
+}
+.two{
+	color:#e8ebed;
+	box-sizing:border-box;
+	padding-left:7.5vh;
+	border-style:none;
+	border-bottom-style:inset;
+}
+.im,.im2{
+	position:absolute;
+	display:inline-block;
+	left:3vw;
+	width:6vh;
+	height:6vh;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.im{
+	top:1.5vh;
+	background-image:url(../../style/u02.jpg);
+}
+.im2{
+	top:10.5vh;
+	background-image:url(../../style/u01.jpg);
+}
+.buttonContent{
+	margin:3vh 0;
+	height:4vh;
+	width:100%;
+}
+.buttonOne,.buttonTwo{
+	margin:0 auto;
+	display:block;
+	width:30%;
+	height:6.5vh;
+	border:0px;
+	outline:none;
+	border-radius:3.5vh;
+	color:#fff;
+	background-color:skyblue;
+	font-size:3vh;
+}
+.textStart,.passStart{
+	font-size:3vh;
+	color:red;
+}
+#remember,
+#remember1{
+	width:22px;
+	height:22px;
+	line-height:40px;
+	margin:0px;
+	margin-left:20px;
+	margin-right:5px;
+}
+.label1{
+	float:left;
+}
+.label2{
+	float:right;
+}
+.rejecting{
+	position:absolute;
+	left:2vw;
+	top:10vh;
+	z-index:1;
+	opacity:1;
+}
+.loading{
+	position:absolute;
+	left:2vw;
+	top:10vh;
+	z-index:0;
+	opacity:0;
+}

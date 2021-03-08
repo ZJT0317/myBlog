@@ -1,0 +1,68 @@
+.bannerColor{
+	height:4vh;
+	line-height:4vh;
+	font-size:2.5vh;
+	border-bottom:0.3vh solid #E8EBED;
+	color:#f40;
+	padding-left:3vw;
+}
+.bannerWrapper{
+	display:flex;
+	padding:1.5vh 3vw;
+}
+.bannerImg{
+	flex:0.8;
+}
+.bannerImg img{
+	height:7vh;
+	width:7vh;
+	border-radius:50%;
+}
+.bannerContent{
+	margin-left:2vw;
+	flex:7;
+}
+.nickNameDiv{
+	font-size:2.8vh;
+	color:#CDCDCD;
+}
+span.nickName{
+	color:#000;
+}
+.csdn{
+	display:inline-block;
+	margin:1.4vh 0;
+	padding:1vh 2.2vw;
+	width:95%;
+	background-color:#E8EBED;
+	border-radius:1.5vw;
+}
+.csdnLogo{
+	line-height:7vh;
+	height:7vh;
+	width:7vh;
+	text-align:center;
+	background-color:#CDCDCD;
+	float:left;
+}
+.csdnLogo img{
+	height:6vh;
+	width:6vh;
+}
+.date{
+	color:#CDCDCD;
+}
+.csdnTitle{
+	float:left;
+	display: flex;
+	margin-top:0.5vh;
+	margin-left:2vw;
+	height:6vh;
+	width:61vw;
+	line-height:3vh;
+	font-size:2.6vh;
+	overflow:hidden;
+	word-break: break-word;
+	justify-content: center;
+	flex-direction: column;
+}

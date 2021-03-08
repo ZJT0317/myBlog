@@ -1,0 +1,104 @@
+.userWrapper{
+	padding:2vh 5vw;
+	background-color:#E8EBED;
+}
+.userWrapperOne{
+	margin-bottom:1vh;
+	display:inline-block;
+	width:90vw;
+}
+.userWrapperOne::after{
+	content:'';
+	overflow:hidden;
+}
+.userWrapperTwo{
+	width:94vw;
+	height:30vh;
+	overflow-x:auto;
+    overflow-y:hidden;
+}
+.userContent{
+	display:inline-block;
+	box-sizing:border-box;
+	white-space: nowrap;
+}
+.userWrapperTwo::-webkit-scrollbar {
+   width:0;
+   height:0;
+}
+.excellentUser{
+	float:left;
+	font-size:2.4vh;
+}
+.more{
+	float:right;
+	font-size:2.4vh;
+}
+.user{
+	display:inline-block;
+	box-sizing:border-box;
+	height:30vh;
+	width:44vw;
+	background-color:#fff;
+	margin-right:2vw;
+	padding:2vh 3vw;
+}
+.user > span{
+	display:block;
+	text-align:center;
+	margin-top:0.7vh;
+}
+.focus{
+	display:inline-block;
+	width:17vw;
+	height:4vh;
+	line-height:4vh;
+	text-align:center;
+	color:#f40;
+	font-size:2.5vh;
+	border:0.3vw solid #ccc;
+	border-radius:1vw;
+}
+.shortSign{
+	line-height:3vh;
+	height:6vh;
+	overflow:hidden;
+}
+.user > div{
+	width:100%;
+	height:10vh;
+	text-align:center;
+}
+.userImg{
+	width:10vh;
+	height:10vh;
+	border:0.2vw solid #ccc;
+	border-radius:50%;
+}
+div.contentBigTitle{
+	padding-top:1.2vh;
+}
+.author{
+	padding:1.5vh 3.5vw 0 3.5vw;
+	height:4vh;
+	line-height:4vh;
+}
+.author span{
+	float:left;
+	margin-left:2vw;
+}
+.divImage{
+	float:left;
+	margin-top:0.4vh;
+	display:inline-block;
+	width:3vh;
+	height:3vh;
+	border-radius:100%;
+	background-image:url(../../style/IMG_20190725_1453.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+
+
+

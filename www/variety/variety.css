@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+}
+.cate{
+	height:6vh;
+	line-height:6vh;
+	font-size:3.4vh;
+}
+.allCate{
+	margin-left:31vw;
+}
+.triangle,
+.allCate{
+	display:inline-block;
+	float:left;
+}
+.myCate{
+	padding:3vh 4vw 7vh 4vw;
+	display:inline-block;
+	box-sizing: border-box;
+	width:100vw;
+}
+.Img,
+.divWord > span{
+	height:4vh;
+	line-height:4vh;
+	float:left;
+}
+.Img{
+	width:4vh;
+	height:4vh;
+}
+.divWord{
+	display:inline-block;
+	font-size:3vh;
+	margin-bottom:2vh;
+}
+.mineCate > div{
+	position:relative;
+    font-size:2.2vh;
+	width:21vw;
+	height:5.5vh;
+	text-align:center;
+	border-radius:1vw;
+	border:0.2vw solid #ccc;
+	margin-top:2vh;
+	margin-right:1.4vw;
+	float:left;
+}
+.mineCate > div span:first-child{
+	line-height:5.5vh;
+}
+.fix{
+	color:#f40;
+}
+.moreWord{
+	display:inline-block;
+	font-size:3vh;
+	padding:0 4vw 1vh 4vw;
+	width:100vw;
+	box-sizing:border-box;
+}
+div.mineCate1{
+	padding:0 4vw;
+}
+.error{
+	position:absolute;
+	display:inline-block;
+	width:6vw;
+	height:6vw;
+	color:#f40;
+	background-color:#fff;
+	right:-1.5vw;
+	top:-1.5vw;
+	border-radius:50%;
+}
+span.error1{
+	color:#ccc;
+}

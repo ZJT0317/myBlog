@@ -1,0 +1,104 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:2.6vh;
+}
+input{
+	outline:none;
+}
+.search{
+	height:6vh;
+	display:flex;
+	padding:0 1.5vw;
+}
+.triangle{
+	font-size:4vh;
+	height:6vh;
+	line-height:6vh;
+}
+.inputWrapper{
+	flex:7.5;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.inputWord{
+	box-sizing: border-box;
+	padding:0 2vw;
+	height:5vh;
+	width:99%;
+	border:0.1vh solid #e8ebed;
+	border-radius:0.8vh;
+	background-color:#e8ebed;
+	font-size:2.8vh;
+	line-height:5vh;
+}
+.search div:last-child{
+	flex:1.2;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.add{
+	font-size:3vh;
+	height:6vh;
+	line-height:6vh;
+}
+.hotSearch{
+	padding:3vh 18vw 4vh 2.5vw;
+}
+.hot{
+	font-size:3vh;
+}
+.List{
+	display:inline-block;
+}
+.List > span{
+	float:left;
+	padding:1vh 2.8vw;
+	font-size:2.7vh;
+	background-color:#f0ffff;
+	color:royalblue;
+	border:0.2vw solid #87cefa;
+	border-radius:1.5vw;
+	margin-top:1.5vh;
+	margin-right:2vw;
+}
+.historySearch{
+	padding:0 2.5vw;
+	font-size:3vh;
+}
+.historySearch span:first-child{
+	float:left;
+}
+.historySearch span:last-child{
+	float:right;
+	color:#cdcdcd;
+}
+.historySearch{
+	overflow:hidden;
+}
+.historyWrapper{
+	color:#cdcdcd;
+}
+.historyContent{
+	padding:2vh 5vw 0 3vw;
+	height:4vh;
+	line-height:4vh;
+}
+.spanImg,
+.error{
+	width:3vh;
+	height:3vh;
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.spanImg{
+	background-image:url(../../style/搜索.png);
+}
+.error{
+	float:right;
+	background-image:url(../../style/错号.png);
+}
+
