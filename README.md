@@ -364,3 +364,10 @@ url:```localhost:8080/blog/mine3```
 userArea="中国 天津 和平区"
 
 返回数据:
+
+```json
+{
+    "status":1,
+    "msg":"ok"
+}
+```
